@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/GoogleChromeLabs/text-editor.git"
   },
-  "homepage": "https://googlechromelabs.github.io/text-editor/",
+  "homepage": "https://harunoz.github.io/mobile/",
   "browserslist": [
     "last 2 versions"
   ],
@@ -38,6 +38,7 @@
   "scripts": {
     "build": "gulp build",
     "build-prod": "gulp buildProd",
+    "deploy": "npm run build && gh-pages -d src",
     "clean": "gulp clean",
     "deploy": "gulp deployProd",
     "lint": "gulp lint",
